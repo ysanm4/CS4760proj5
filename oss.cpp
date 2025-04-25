@@ -1,6 +1,6 @@
 //Written by Yosef Alqufidi
-//Date 3/18/25
-//updated from project 2
+//Date 4/29/25
+//updated from project 4
 
 
 #include <iostream>
@@ -22,14 +22,19 @@ using namespace std;
 //PCB tracking children
 
 #define PROCESS_TABLE 20
+#define MAX_RESOURCES 5
+#define INSTANCES_PER_RESOURCE 10
+#define REQUEST 0
+#define RELEASE 1
+#define RELEASE_ALL 2
 
 //struct for PCB
 struct PCB{
 	int occupied;
 	pid_t pid;
-	int startSeconds;
+	int startS;
 	int startNano;
-	int messagesSent;
+	int alloc[MAX_RESOURCES];
 };
 
 //struct for clock
@@ -39,12 +44,27 @@ struct ClockDigi{
 };
 
 //struct for messages
-struct Message{
+struct Request{
 	long mtype;
-	int data;
+	pid_t pid;
+	int type;
+	int resID;
+};
+
+struct Reply{
+	long mtype;
+	int granted;
+};
+
+struct Resource{
+	int total;
+	int available;
+	pid_t waitingQueue[PROCESS_TABLE];
+	int waitCount;
 };
 
 PCB processTable[PROCESS_TABLE];
+Resource resources[MAX_RESOURCES];
 //clock ID
 int shmid;
 //shared memory ptr
@@ -53,6 +73,12 @@ ClockDigi* clockVal = nullptr;
 int msgid;
 
 ofstream logFile;
+
+int findIndex(pid_t pid){
+	for(int i=0;i<PROCESS_TABLE;i++) if(processTable[i].occupied && processTable[i].pid == pid) return i;
+	return -1;
+	
+}
 
 //print process table to screen and logfile
 void printProcessTable(){
