@@ -70,4 +70,29 @@ while(true){
 		}
 
 		if((rand()%100)<70){
+			int r = rand()%MAX_RESOURCES;
+			if(alloc[r] < INSTANCES_PER_RESOURCE){
+				Request req{1,pid,REQUEST, r}; msgsnd(msgid,&req,sizeof(req)-sizeof(long),0);
+//grant request
+				Reply rep;
+				msgrcv(msgid, &rep, sizeof(rep.granted), pid, 0);
+				if(rep.granted) alloc[r]++;
+				}
+			}else{
+//release
+				int nonzero=0;
+				for(int r=0;r<MAX_RESOURCES;r++) if(alloc[r]>0) nozero;
+				if(nonzero>0){
+					int r;
+					do{ r=rand()%MAX_RESOURCES; }while(alloc[r]==0);
+				Request req{1,pid,RELEASE, r}; msgsnd(msgid,&req,sizeof(req)-sizeof(long),0);
+			alloc[r]--;
+				}
+			}
+		}
+		unsleep(1000);
+	}
+	shmdt(clockVal);
+	return 0;
+	}
 
