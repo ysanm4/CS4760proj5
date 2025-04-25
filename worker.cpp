@@ -1,6 +1,6 @@
 //Written by Yosef Alqufidi
-//Date 4/15/25
-//updated from project 3
+//Date 4/24/25
+//updated from project 4
 
 #include <iostream>
 #include <unistd.h>
@@ -9,85 +9,65 @@
 #include <sys/shm.h>
 #include <sys/msg.h>
 #include <ctime>
-#include <string>
+#include <cstring>
 
 using namespace std;
 
-//message struct
-struct Message{
-	long mtype;
-	int data;
+#define MAX_RESOURCES 5
+#define REQUEST 0
+#define RELEASE 1
+#define RELEASE_ALL 2
+#define BOUND_NS 1000000000
+
+//Shared memory clock structure
+struct ClockDigi{
+	int sysClockS;
+	int sysClockNano;
 };
 
+struct Request{
+	long mtype;
+	pid_t pid;
+	int type;
+	int resID;
+};
+
+struct Reply{
+	long mtype;
+	int granted;
+};
+
+
 //logic for shared memory
-int main(int argc, char** argv){
-	if(argc !=3){
-		cout<<"Usage:"<< argv[0] << " <term_BS> <term_BN>" <<endl;
-		return EXIT_FAILURE;
-	}
+int main(){
+//shared memory key
+key_t shmKey= 6321;
 
+//access to shared memory
+int shmid = shmget(shmKey, sizeof(ClockDigi), 0666);
+ClockDigi* clockVal = (ClockDigi*)shmat(shmid, NULL, 0);
+int msgid = msgget(key, 0666);
 
-//termination bounds
-int termBS = atoi(argv[1]);
-int termBN = atoi(argv[2]);
+pid_t pid = getpid();
+srand(pid);
+int alloc[MAX_RESOURCES] = {0};
 
-(void)termBS;
-(void)termBN;
+long startTime = (long)clockVal->sysClockS*1000000000LL + clockVal->sysClockNano;
+long lastAction = startTime;
 
-//message queue
-key_t msgKey = 6321;
-int msgid = msgget(msgKey, 0666);
-if(msgid < 0){
-	perror("msgget");
-	return EXIT_FAILURE;
-}
-
-//RNG 
-srand(time(NULL) ^ getpid());
-
-//probabilities
-//termination 10%
-const double TERM_PROB = 0.1; 
-//I/O 20%
-const double IO_PROB = 0.2;
-
-//loop for scheduling messages
 while(true){
-	Message schedMsg;
-	if(msgrcv(msgid, &schedMsg, sizeof(schedMsg.data), getpid(), 0) == -1){
-		perror("msgrcv");
-		break;
-	}
+	long now = (long)clockVal->sysClockS*1000000000LL + clockVal->sysClockNano;
+	long delta = now - lastAction;
+	long randBound = rand() % BOUND_NS;
+	if(delta >= randBound){
+		lastAction = now;
+		if(now - startTime >= 1000000000LL && (rand()%100)<10){
+			for(int r=0;r<MAX_RESOURCES;r++){
+				if(alloc[r]>0){ Request req{1,pid,RELEASE, r}; msgsnd(msgid,&req,sizeof(req)-sizeof(long),0); }
+                }
+			Request req{1,pid,RELEASE_ALL,0}; msgsnd(msgid,&req,sizeof(req)-sizeof(long),0);
+			break;
+		}
 
-//time slice
-int quantum = schedMsg.data;
-cout<< "WORKER PID: " <<getpid()<< " recived quantum: " << quantum << "ns" <<endl;
-
-int usage = (rand() % (quantum - 1)) + 1;
-Message response;
-response.mtype = getpid();
-double r = (double)rand() / RAND_MAX;
-if(r < TERM_PROB){
-	response.data = -usage;
-	cout<< "WORKER PID: " << getpid()<< " terminating after usage " << usage <<"ns" <<endl;
-	if(msgsnd(msgid, &response, sizeof(response.data), 0) == -1){
-		perror("msgsnd");
-	}
-	break;
-}
-	else if(r < TERM_PROB + IO_PROB){
-		response.data = usage;
-		cout<< "WORKER PID: " <<getpid()<< " preempted by I/O after " << usage << "ns" <<endl;
-	}else{
-	response.data = quantum;
-		cout<< "WORKER PID: " <<getpid()<< " used full quantum of " << quantum << "ns" <<endl;
-	}
-
-//respond to oss
-if(msgsnd(msgid, &response, sizeof(response.data), 0) == -1){
-	perror("msgsnd");
-	}
-}
-return EXIT_SUCCESS;
-}
+		if((rand()%100)<70){
 
