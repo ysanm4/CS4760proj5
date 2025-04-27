@@ -160,14 +160,15 @@ vector<int> detectDeadlock() {
         visited[u] = rec[u] = true;
         for(int v : graph[u]) {
             if(!visited[v]) {
-                if(dfs(v)) { if(cycle.empty()) cycle.push_back(u); return true; }
+                if(dfs(v)) { 
+			if(cycle.empty()) cycle.push_back(u); 
+			return true; 
+		}
             } else if(rec[v]) {
                 cycle.push_back(u);
                 return true;
-            }
-        }else if (rec[v]){
-		cycle.push_back(u);
-		return true;
+            
+        
 	}
     }
         rec[u] = false;
@@ -269,7 +270,9 @@ for(int i = 0; i < PROCESS_TABLE; ++i) {
         processTable[i].startNano = 0;
         processTable[i].messagesSent = 0;
 	waitingFor[i] = -1;
-        fill(begin(processTable[i].alloc), end(processTable[i].alloc, 0);
+        fill(begin(processTable[i].alloc),
+		       	end(processTable[i].alloc),
+		       	0);
     }
 //init resources
     for(int r = 0; r < MAX_RESOURCES; ++r) {

@@ -42,7 +42,7 @@ key_t shmKey= 6321;
 
 //access to shared memory
 int shmid = shmget(shmKey, sizeof(ClockDigi), 0666);
-ClockDigi* clockVal = (ClockDigi*)shmat(shmid, NULL, 0);
+ClockDigi* clockVal = (ClockDigi*)shmat(shmid, nullptr, 0);
 int msgid = msgget(key, 0666);
 
 pid_t pid = getpid();
@@ -53,14 +53,17 @@ long startTime = (long)clockVal->sysClockS*1000000000LL + clockVal->sysClockNano
 long lastAction = startTime;
 
 while(true){
-	long now = (long)clockVal->sysClockS*1000000000LL + clockVal->sysClockNano;
+	long now = (long)clockVal->sysClockS *1000000000LL + clockVal->sysClockNano;
 	long delta = now - lastAction;
 	long waitBound = rand() % BOUND_NS;
 	if(delta >= waitBound){
 		lastAction = now;
 		if(now - startTime >= 1000000000LL && (rand()%100)<10){
 			for(int r=0;r<MAX_RESOURCES;r++){
-				if(alloc[r]>0){ Message rel{1,pid,RELEASE, r}; msgsnd(msgid,&rel,sizeof(rel)-sizeof(long),0); }
+				if(alloc[r]>0){ 
+					Message rel{1,pid,RELEASE, r}; 
+					msgsnd(msgid,&rel,sizeof(rel) - sizeof(long),0); 
+				}
                 }
 			Message relAll{1,pid,RELEASE_All,0}; 
 			msgsnd(msgid,&relAll,sizeof(relAll)-sizeof(long),0);
