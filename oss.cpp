@@ -15,6 +15,8 @@
 #include <sys/shm.h>
 #include <ctime>
 #include <string>
+#include <functional>
+#include <vector>
 #include <sys/msg.h>
 
 using namespace std;
@@ -52,14 +54,14 @@ struct Message{
 };
 
 struct Resource{
-	int total;
 	int available;
-	pid_t waitingQueue[PROCESS_TABLE];
+	pid_t waitQueue[PROCESS_TABLE];
 	int waitCount;
 };
 
 PCB processTable[PROCESS_TABLE];
 Resource resources[MAX_RESOURCES];
+int waitingFor[PROCESS_TABLE];
 //clock ID
 int shmid;
 //shared memory ptr
@@ -70,10 +72,10 @@ int msgid;
 ofstream logFile;
 
 int findIndex(pid_t pid){
-	for(int i=0;i<PROCESS_TABLE;i++){ 
+	for(int i=0;i<PROCESS_TABLE;i++)
 		if(processTable[i].occupied && processTable[i].pid == pid) 
 			return i;
-}
+
 	return -1;
 	
 }
@@ -101,14 +103,16 @@ void printProcessTable(){
 		logFile << " " << processTable[i].alloc[r];
 
     }
-    cout.flush();
-    logFile.flush();
+    cout << "\n";
+    logFile << "\n";
 }
 }
 
 void printResourceTable(){
 	cout << "Resource Table:------------------------------------------------------\n";
+	cout << "ResID available WaitingCount\n";
     logFile << "Resource Table:------------------------------------------------------\n";
+    logFile << "ResID available WaitingCount\n";
     for(int r = 0; r < MAX_RESOURCES; ++r) {
         cout << "R" << r << ": available=" << resources[r].available
              << " waiting=" << resources[r].waitCount << "\n";
@@ -117,18 +121,59 @@ void printResourceTable(){
     }
 }
 
+//cleanup
 void cleanup(int) {
     //send kill signal to all children based on their PIDs in process table
-for(int i = 0; i < PROCESS_TABLE; i++){
+for(int i = 0; i < PROCESS_TABLE; i++)
 	if(processTable[i].occupied) kill(processTable[i].pid, SIGKILL);
 	
-}
+
 //free up shared memory
 if(clockVal) shmdt(clockVal);
 shmctl(shmid, IPC_RMID, NULL);
 msgctl(msgid, IPC_RMID, NULL);
 if(logFile.is_open()) logFile.close();
     exit(1);
+}
+
+// Deadlock detection
+vector<int> detectDeadlock() {
+    
+    vector<vector<int>> graph(PROCESS_TABLE);
+    for(int i = 0; i < PROCESS_TABLE; ++i) {
+        if(processTable[i].occupied && waitingFor[i] != -1) {
+            int res = waitingFor[i];
+            for(int j = 0; j < PROCESS_TABLE; ++j) {
+                if(processTable[j].occupied && processTable[j].alloc[res] > 0) {
+                    graph[i].push_back(j);
+                }
+            }
+        }
+    }
+    vector<bool> visited(PROCESS_TABLE), rec(PROCESS_TABLE);
+    vector<int> cycle;
+    function<bool(int)> dfs = [&](int u) {
+        visited[u] = rec[u] = true;
+        for(int v : graph[u]) {
+            if(!visited[v]) {
+                if(dfs(v)) { if(cycle.empty()) cycle.push_back(u); return true; }
+            } else if(rec[v]) {
+                cycle.push_back(u);
+                return true;
+            }
+        }
+        rec[u] = false;
+        return false;
+    };
+    for(int i = 0; i < PROCESS_TABLE; ++i) {
+        if(processTable[i].occupied && waitingFor[i] != -1) {
+            fill(visited.begin(), visited.end(), false);
+            fill(rec.begin(), rec.end(), false);
+            cycle.clear();
+            if(dfs(i)) return cycle;
+        }
+    }
+    return {};
 }
 
 
@@ -215,6 +260,7 @@ for(int i = 0; i < PROCESS_TABLE; ++i) {
         processTable[i].startSeconds = 0;
         processTable[i].startNano = 0;
         processTable[i].messagesSent = 0;
+	waitingFor[i] = -1;
         for(int r = 0; r < MAX_RESOURCES; ++r) processTable[i].alloc[r] = 0;
     }
 //init resources
@@ -222,3 +268,78 @@ for(int i = 0; i < PROCESS_TABLE; ++i) {
         resources[r].available = INSTANCES_PER_RESOURCE;
         resources[r].waitCount = 0;
     }
+//message queue
+    msgid = msgget(key, IPC_CREAT | 0666);
+
+    signal(SIGINT, cleanup);
+    signal(SIGALRM, cleanup);
+    alarm(5);
+
+    int launched = 0;
+    int running = 0;
+    long long lastLaunch = 0;
+    long long lastPrint = 0;
+    long long lastDetect = 0;
+    
+    const long long incNs = 10LL * 1000000LL;     
+    const long long halfSec = 500LL * 1000000LL;  
+    const long long oneSec = 1000LL * 1000000LL;  
+
+//main loop
+while(launched < n_case || running > 0){
+    long long totalNs = (long long)clockVal->sysClockS * 1000000000LL + clockVal->sysClockNano + incNs;
+    clockVal->sysClockS = totalNs / 1000000000LL;
+    clockVal->sysClockNano = totalNs % 1000000000LL;
+    long long now = (long long)clockVal->sysClockS * 1000000000LL + clockVal->sysClockNano;
+	
+	pid_t pid;
+        while((pid = waitpid(-1, nullptr, WNOHANG)) > 0) {
+            int idx = findIndex(pid);
+            if(idx >= 0) {
+                // Free resources
+                for(int r = 0; r < MAX_RESOURCES; ++r) {
+                    resources[r].available += processTable[idx].alloc[r];
+                    processTable[idx].alloc[r] = 0;
+                }
+                processTable[idx].occupied = 0;
+                waitingFor[idx] = -1;
+                running--;
+            }
+        }
+
+//exec	
+	if(launched < n_case && running < s_case && now - lastLaunch >= (long long)intervalMs * 1000000LL) {
+            pid = fork();
+            if(pid < 0) {
+                perror("fork"); cleanup(0);
+            } else if(pid == 0) {
+                execlp("./worker", "worker", nullptr);
+                perror("execlp"); exit(EXIT_FAILURE);
+            } else {
+                // Register new PCB
+                for(int i = 0; i < PROCESS_TABLE; ++i) {
+                    if(!processTable[i].occupied) {
+                        processTable[i].occupied = 1;
+                        processTable[i].pid = pid;
+                        processTable[i].startSeconds = clockVal->sysClockS;
+                        processTable[i].startNano = clockVal->sysClockNano;
+                        break;
+                    }
+                }
+                launched++;
+                running++;
+                lastLaunch = now;
+            }
+        }
+
+//message handleing
+	Message msg;
+        ssize_t sz;
+        while((sz = msgrcv(msgid, &msg, sizeof(msg) - sizeof(long), 0, IPC_NOWAIT)) != -1) {
+            int idx = findIndex(msg.pid);
+            if(idx < 0) continue;
+            if(msg.type == REQUEST) {
+                if(resources[msg.resID].available > 0) {
+                    resources[msg.resID].available--;
+                    processTable[idx].alloc[msg.resID]++;
+                    waitingFor[idx] = -1;	

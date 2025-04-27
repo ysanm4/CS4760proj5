@@ -8,16 +8,18 @@
 #include <sys/ipc.h>
 #include <sys/shm.h>
 #include <sys/msg.h>
-#include <ctime>
-#include <cstring>
 
 using namespace std;
 
 #define MAX_RESOURCES 5
-#define REQUEST 0
-#define RELEASE 1
-#define RELEASE_ALL 2
+#define INSTANCES_PER_RESOURCE 10
 #define BOUND_NS 1000000000
+
+enum RequestType { 
+	REQUEST = 0; 
+	RELEASE = 1, 
+	RELEASE_ALL = 2
+};
 
 //Shared memory clock structure
 struct ClockDigi{
@@ -25,16 +27,11 @@ struct ClockDigi{
 	int sysClockNano;
 };
 
-struct Request{
+struct Message{
 	long mtype;
 	pid_t pid;
 	int type;
 	int resID;
-};
-
-struct Reply{
-	long mtype;
-	int granted;
 };
 
 
@@ -58,34 +55,37 @@ long lastAction = startTime;
 while(true){
 	long now = (long)clockVal->sysClockS*1000000000LL + clockVal->sysClockNano;
 	long delta = now - lastAction;
-	long randBound = rand() % BOUND_NS;
-	if(delta >= randBound){
+	long waitBound = rand() % BOUND_NS;
+	if(delta >= waitBound){
 		lastAction = now;
 		if(now - startTime >= 1000000000LL && (rand()%100)<10){
 			for(int r=0;r<MAX_RESOURCES;r++){
-				if(alloc[r]>0){ Request req{1,pid,RELEASE, r}; msgsnd(msgid,&req,sizeof(req)-sizeof(long),0); }
+				if(alloc[r]>0){ Message rel{1,pid,RELEASE, r}; msgsnd(msgid,&rel,sizeof(rel)-sizeof(long),0); }
                 }
-			Request req{1,pid,RELEASE_ALL,0}; msgsnd(msgid,&req,sizeof(req)-sizeof(long),0);
+			Message relAll{1,pid,RELEASE_All,0}; 
+			msgsnd(msgid,&relAll,sizeof(relAll)-sizeof(long),0);
 			break;
 		}
 
 		if((rand()%100)<70){
 			int r = rand()%MAX_RESOURCES;
 			if(alloc[r] < INSTANCES_PER_RESOURCE){
-				Request req{1,pid,REQUEST, r}; msgsnd(msgid,&req,sizeof(req)-sizeof(long),0);
+				Message req{1,pid,REQUEST, r}; 
+				msgsnd(msgid,&req,sizeof(req)-sizeof(long),0);
 //grant request
-				Reply rep;
-				msgrcv(msgid, &rep, sizeof(rep.granted), pid, 0);
-				if(rep.granted) alloc[r]++;
+				Message grant;
+				msgrcv(msgid, &grant, sizeof(grant) - sizeof(long), pid, 0);
+				alloc[r]++;
 				}
 			}else{
 //release
-				int nonzero=0;
-				for(int r=0;r<MAX_RESOURCES;r++) if(alloc[r]>0) nozero;
-				if(nonzero>0){
+				int nonzero = 0;
+				for(int r = 0; r<MAX_RESOURCES;r++) if(alloc[r]>0) nozero++;
+				if(nonzero > 0){
 					int r;
-					do{ r=rand()%MAX_RESOURCES; }while(alloc[r]==0);
-				Request req{1,pid,RELEASE, r}; msgsnd(msgid,&req,sizeof(req)-sizeof(long),0);
+					do{ r = rand() %MAX_RESOURCES; }while(alloc[r]==0);
+				Message rel{1,pid,RELEASE, r}; 
+				msgsnd(msgid,&rel,sizeof(req)-sizeof(long),0);
 			alloc[r]--;
 				}
 			}
