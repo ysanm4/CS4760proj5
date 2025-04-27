@@ -18,6 +18,8 @@
 #include <functional>
 #include <vector>
 #include <sys/msg.h>
+#include <algorithm>
+#include <errno.h>
 
 using namespace std;
 
@@ -59,22 +61,23 @@ struct Resource{
 	int waitCount;
 };
 
-PCB processTable[PROCESS_TABLE];
-Resource resources[MAX_RESOURCES];
-int waitingFor[PROCESS_TABLE];
+static PCB processTable[PROCESS_TABLE];
+static Resource resources[MAX_RESOURCES];
+static int waitingFor[PROCESS_TABLE];
 //clock ID
-int shmid;
+static int shmid;
 //shared memory ptr
-ClockDigi* clockVal = nullptr;
+static ClockDigi* clockVal = nullptr;
 //message ID
-int msgid;
+static int msgid;
 
-ofstream logFile;
+static ofstream logFile;
 
 int findIndex(pid_t pid){
-	for(int i=0;i<PROCESS_TABLE;i++)
+	for(int i=0;i<PROCESS_TABLE;i++){
 		if(processTable[i].occupied && processTable[i].pid == pid) 
 			return i;
+	}
 
 	return -1;
 	
@@ -124,9 +127,10 @@ void printResourceTable(){
 //cleanup
 void cleanup(int) {
     //send kill signal to all children based on their PIDs in process table
-for(int i = 0; i < PROCESS_TABLE; i++)
-	if(processTable[i].occupied) kill(processTable[i].pid, SIGKILL);
-	
+for(int i = 0; i < PROCESS_TABLE; i++){
+	if(processTable[i].occupied) 
+		kill(processTable[i].pid, SIGKILL);
+}
 
 //free up shared memory
 if(clockVal) shmdt(clockVal);
@@ -161,7 +165,11 @@ vector<int> detectDeadlock() {
                 cycle.push_back(u);
                 return true;
             }
-        }
+        }else if (rec[v]){
+		cycle.push_back(u);
+		return true;
+	}
+    }
         rec[u] = false;
         return false;
     };
@@ -189,7 +197,7 @@ int main( int argc, char *argv[]){
 	int opt;
 
 //setting up the parameters for h,n,s,t,i, and f
-	while ((opt = getopt(argc, argv, "hn:s:i:f: ")) != -1) {
+	while ((opt = getopt(argc, argv, "hn:s:i:f:")) != -1) {
 		switch (opt){
 			case 'h':
 			cout<< "This is the help menu\n";
@@ -261,7 +269,7 @@ for(int i = 0; i < PROCESS_TABLE; ++i) {
         processTable[i].startNano = 0;
         processTable[i].messagesSent = 0;
 	waitingFor[i] = -1;
-        for(int r = 0; r < MAX_RESOURCES; ++r) processTable[i].alloc[r] = 0;
+        fill(begin(processTable[i].alloc), end(processTable[i].alloc, 0);
     }
 //init resources
     for(int r = 0; r < MAX_RESOURCES; ++r) {
@@ -308,7 +316,7 @@ while(launched < n_case || running > 0){
         }
 
 //exec	
-	if(launched < n_case && running < s_case && now - lastLaunch >= (long long)intervalMs * 1000000LL) {
+	if(launched < n_case && running < s_case && now - lastLaunch >= (long long)i_case * 1000000LL) {
             pid = fork();
             if(pid < 0) {
                 perror("fork"); cleanup(0);
@@ -334,10 +342,17 @@ while(launched < n_case || running > 0){
 
 //message handleing
 	Message msg;
-        ssize_t sz;
-        while((sz = msgrcv(msgid, &msg, sizeof(msg) - sizeof(long), 0, IPC_NOWAIT)) != -1) {
-            int idx = findIndex(msg.pid);
-            if(idx < 0) continue;
+        while(true){
+		ssize_t sz = msgrcv(msgid, &msg, sizeof(msg) - sizeof(long), 0, IPC_NOWAIT);
+
+		if(sz < 0){
+			if (errno == ENOMSG) break;
+			perror("msgrcv");
+			break;
+		}
+		int idx = findIndex(msg.pid);
+		if(idx < 0) continue;
+
             if(msg.type == REQUEST) {
                 if(resources[msg.resID].available > 0) {
                     resources[msg.resID].available--;
@@ -348,6 +363,7 @@ while(launched < n_case || running > 0){
 	    msg.pid, msg.pid, REQUEST, msg.resID};
 	    
 	   		msgsnd(msgid, &rep, sizeof(rep) - sizeof(long), 0);
+			processTable[idx].messagesSent++;
 		}else{
 			int q = resources[msg.resID].waitCount++;
 			resources[msg.resID].waitQueue[q] = msg.pid;
@@ -376,9 +392,12 @@ while(launched < n_case || running > 0){
 			res.waitCount--;
 			res.available--;
 			int widx = findIndex(wpid);
-			if(widx >= 0) processTable[widx].alloc[r]++;
+			if(widx >= 0){
+			processTable[widx].alloc[r]++;
 			Message rep{wpid, wpid, REQUEST, r};
 			msgsnd(msgid, &rep, sizeof(rep) - sizeof(long), 0);
+			processTable[widx].messagesSent++;
+			}
 		}
 	}
 
