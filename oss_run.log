@@ -1,0 +1,4205 @@
+OSS PID 654593 SysClock 0:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	0
+ 0 0 0 0 0
+1	1		654595	0	200000000	0
+ 0 0 0 0 0
+2	1		654597	0	300000000	0
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 1:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	0
+ 0 0 0 0 0
+1	1		654595	0	200000000	0
+ 0 0 0 0 0
+2	1		654597	0	300000000	0
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 1:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	0
+ 0 0 0 0 0
+1	1		654595	0	200000000	0
+ 0 0 0 0 0
+2	1		654597	0	300000000	0
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 2:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	0
+ 0 0 0 0 0
+1	1		654595	0	200000000	0
+ 0 0 0 0 0
+2	1		654597	0	300000000	0
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 2:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	0
+ 0 0 0 0 0
+1	1		654595	0	200000000	0
+ 0 0 0 0 0
+2	1		654597	0	300000000	0
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 3:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	0
+ 0 0 0 0 0
+1	1		654595	0	200000000	0
+ 0 0 0 0 0
+2	1		654597	0	300000000	0
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 3:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	0
+ 0 0 0 0 0
+1	1		654595	0	200000000	0
+ 0 0 0 0 0
+2	1		654597	0	300000000	0
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 4:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	0
+ 0 0 0 0 0
+1	1		654595	0	200000000	0
+ 0 0 0 0 0
+2	1		654597	0	300000000	0
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 4:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	0
+ 0 0 0 0 0
+1	1		654595	0	200000000	1
+ 1 0 0 0 0
+2	1		654597	0	300000000	0
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 5:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	0
+ 0 0 0 0 0
+1	1		654595	0	200000000	1
+ 1 0 0 0 0
+2	1		654597	0	300000000	0
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 5:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	0
+ 0 0 0 0 0
+1	1		654595	0	200000000	1
+ 1 0 0 0 0
+2	1		654597	0	300000000	0
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 6:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	0
+ 0 0 0 0 0
+1	1		654595	0	200000000	1
+ 1 0 0 0 0
+2	1		654597	0	300000000	0
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 6:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	0
+ 0 0 0 0 0
+1	1		654595	0	200000000	1
+ 1 0 0 0 0
+2	1		654597	0	300000000	0
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 7:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	0
+ 0 0 0 0 0
+1	1		654595	0	200000000	2
+ 1 1 0 0 0
+2	1		654597	0	300000000	0
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 7:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	0
+ 0 0 0 0 0
+1	1		654595	0	200000000	2
+ 1 1 0 0 0
+2	1		654597	0	300000000	0
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 8:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	0
+ 0 0 0 0 0
+1	1		654595	0	200000000	2
+ 1 1 0 0 0
+2	1		654597	0	300000000	0
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 8:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	0
+ 0 0 0 0 0
+1	1		654595	0	200000000	2
+ 1 1 0 0 0
+2	1		654597	0	300000000	0
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 9:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	0
+ 0 0 0 0 0
+1	1		654595	0	200000000	2
+ 1 1 0 0 0
+2	1		654597	0	300000000	0
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 9:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	1
+ 0 0 0 1 0
+1	1		654595	0	200000000	3
+ 1 1 0 0 1
+2	1		654597	0	300000000	0
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 10:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	1
+ 0 0 0 1 0
+1	1		654595	0	200000000	3
+ 1 1 0 0 1
+2	1		654597	0	300000000	0
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 10:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	1
+ 0 0 0 1 0
+1	1		654595	0	200000000	3
+ 1 1 0 0 1
+2	1		654597	0	300000000	0
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 11:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	1
+ 0 0 0 1 0
+1	1		654595	0	200000000	3
+ 1 1 0 0 1
+2	1		654597	0	300000000	0
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 11:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	2
+ 1 0 0 1 0
+1	1		654595	0	200000000	3
+ 0 1 0 0 1
+2	1		654597	0	300000000	1
+ 0 1 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 12:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	2
+ 1 0 0 1 0
+1	1		654595	0	200000000	3
+ 0 1 0 0 1
+2	1		654597	0	300000000	1
+ 0 1 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 12:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	2
+ 1 0 0 1 0
+1	1		654595	0	200000000	3
+ 0 1 0 0 1
+2	1		654597	0	300000000	1
+ 0 1 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 13:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	2
+ 1 0 0 1 0
+1	1		654595	0	200000000	3
+ 0 1 0 0 1
+2	1		654597	0	300000000	1
+ 0 1 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 13:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	2
+ 1 0 0 1 0
+1	1		654595	0	200000000	3
+ 0 1 0 0 1
+2	1		654597	0	300000000	1
+ 0 1 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 14:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	2
+ 0 0 0 1 0
+1	1		654595	0	200000000	4
+ 1 1 0 0 1
+2	1		654597	0	300000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 14:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	2
+ 0 0 0 1 0
+1	1		654595	0	200000000	4
+ 1 1 0 0 1
+2	1		654597	0	300000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 15:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	2
+ 0 0 0 1 0
+1	1		654595	0	200000000	4
+ 1 1 0 0 1
+2	1		654597	0	300000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 15:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	2
+ 0 0 0 1 0
+1	1		654595	0	200000000	4
+ 1 1 0 0 1
+2	1		654597	0	300000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 16:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	2
+ 0 0 0 1 0
+1	1		654595	0	200000000	4
+ 1 1 0 0 1
+2	1		654597	0	300000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 16:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	3
+ 0 0 0 1 1
+1	1		654595	0	200000000	5
+ 1 1 0 0 2
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 17:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	3
+ 0 0 0 1 1
+1	1		654595	0	200000000	5
+ 1 1 0 0 2
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 17:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	3
+ 0 0 0 1 1
+1	1		654595	0	200000000	5
+ 1 1 0 0 2
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 18:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	3
+ 0 0 0 1 1
+1	1		654595	0	200000000	5
+ 1 1 0 0 2
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 18:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	3
+ 0 0 0 1 1
+1	1		654595	0	200000000	5
+ 1 1 0 0 2
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 19:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	3
+ 0 0 0 0 1
+1	1		654595	0	200000000	6
+ 1 2 0 0 2
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 19:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	3
+ 0 0 0 0 1
+1	1		654595	0	200000000	6
+ 1 2 0 0 2
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 20:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	3
+ 0 0 0 0 1
+1	1		654595	0	200000000	6
+ 1 2 0 0 2
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 20:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	3
+ 0 0 0 0 1
+1	1		654595	0	200000000	6
+ 1 2 0 0 2
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 21:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	3
+ 0 0 0 0 1
+1	1		654595	0	200000000	6
+ 1 2 0 0 2
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 21:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	4
+ 0 0 1 0 1
+1	1		654595	0	200000000	6
+ 0 2 0 0 2
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=10 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 22:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	4
+ 0 0 1 0 1
+1	1		654595	0	200000000	6
+ 0 2 0 0 2
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=10 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 22:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	4
+ 0 0 1 0 1
+1	1		654595	0	200000000	6
+ 0 2 0 0 2
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=10 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 23:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	4
+ 0 0 1 0 1
+1	1		654595	0	200000000	6
+ 0 2 0 0 2
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=10 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 23:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	4
+ 0 0 1 0 1
+1	1		654595	0	200000000	6
+ 0 2 0 0 2
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=10 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 24:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	5
+ 0 0 1 1 1
+1	1		654595	0	200000000	7
+ 0 2 0 0 3
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 24:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	5
+ 0 0 1 1 1
+1	1		654595	0	200000000	7
+ 0 2 0 0 3
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 25:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	5
+ 0 0 1 1 1
+1	1		654595	0	200000000	7
+ 0 2 0 0 3
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 25:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	5
+ 0 0 1 1 1
+1	1		654595	0	200000000	7
+ 0 2 0 0 3
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 26:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	5
+ 0 0 1 1 1
+1	1		654595	0	200000000	7
+ 0 2 0 0 3
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 26:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	5
+ 0 0 1 1 1
+1	1		654595	0	200000000	7
+ 0 2 0 0 3
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 27:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	6
+ 1 0 1 1 1
+1	1		654595	0	200000000	8
+ 0 3 0 0 3
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=7 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 27:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	6
+ 1 0 1 1 1
+1	1		654595	0	200000000	8
+ 0 3 0 0 3
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=7 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 28:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	6
+ 1 0 1 1 1
+1	1		654595	0	200000000	8
+ 0 3 0 0 3
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=7 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 28:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	6
+ 1 0 1 1 1
+1	1		654595	0	200000000	8
+ 0 3 0 0 3
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=7 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 29:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	6
+ 1 0 1 1 1
+1	1		654595	0	200000000	8
+ 0 3 0 0 3
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=7 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 29:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	6
+ 1 0 1 1 0
+1	1		654595	0	200000000	8
+ 0 2 0 0 3
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 30:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	6
+ 1 0 1 1 0
+1	1		654595	0	200000000	8
+ 0 2 0 0 3
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 30:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	6
+ 1 0 1 1 0
+1	1		654595	0	200000000	8
+ 0 2 0 0 3
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 31:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	6
+ 1 0 1 1 0
+1	1		654595	0	200000000	8
+ 0 2 0 0 3
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 31:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	6
+ 1 0 1 1 0
+1	1		654595	0	200000000	8
+ 0 2 0 0 3
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 32:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	7
+ 1 0 1 1 1
+1	1		654595	0	200000000	9
+ 0 2 0 0 4
+2	1		654598	16	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=5 waiting=0
+OSS PID 654593 SysClock 32:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	8
+ 1 0 2 1 1
+1	1		654595	0	200000000	9
+ 0 1 0 0 4
+2	1		654599	32	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=9 waiting=0
+R2: available=8 waiting=0
+R3: available=9 waiting=0
+R4: available=5 waiting=0
+OSS PID 654593 SysClock 33:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	8
+ 1 0 2 1 1
+1	1		654595	0	200000000	9
+ 0 1 0 0 4
+2	1		654599	32	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=9 waiting=0
+R2: available=8 waiting=0
+R3: available=9 waiting=0
+R4: available=5 waiting=0
+OSS PID 654593 SysClock 33:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	8
+ 1 0 2 1 1
+1	1		654595	0	200000000	10
+ 0 2 0 0 4
+2	1		654599	32	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=8 waiting=0
+R3: available=9 waiting=0
+R4: available=5 waiting=0
+OSS PID 654593 SysClock 34:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	8
+ 1 0 2 1 1
+1	1		654595	0	200000000	10
+ 0 2 0 0 4
+2	1		654599	32	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=8 waiting=0
+R3: available=9 waiting=0
+R4: available=5 waiting=0
+OSS PID 654593 SysClock 34:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	10
+ 0 2 0 0 4
+2	1		654599	32	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=8 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 35:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	10
+ 0 2 0 0 4
+2	1		654599	32	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=8 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 35:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	10
+ 0 2 0 0 4
+2	1		654599	32	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=8 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 36:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	11
+ 1 2 0 0 4
+2	1		654599	32	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 36:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	11
+ 1 2 0 0 4
+2	1		654599	32	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 37:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	11
+ 1 2 0 0 4
+2	1		654599	32	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 37:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	11
+ 1 2 0 0 4
+2	1		654599	32	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 38:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	11
+ 1 2 0 0 4
+2	1		654599	32	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 38:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	12
+ 1 2 1 0 4
+2	1		654599	32	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=10 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 39:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	12
+ 1 2 1 0 4
+2	1		654599	32	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=10 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 39:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	12
+ 1 2 1 0 4
+2	1		654599	32	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=10 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 40:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654594	0	100000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	12
+ 1 2 1 0 4
+2	1		654599	32	10000000	1
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=10 waiting=0
+R4: available=6 waiting=0
+OSS PID 654593 SysClock 40:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	12
+ 1 2 1 0 3
+2	1		654599	32	10000000	2
+ 1 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=8 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=10 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 41:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	12
+ 1 2 1 0 3
+2	1		654599	32	10000000	2
+ 1 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=8 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=10 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 41:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	12
+ 1 2 1 0 3
+2	1		654599	32	10000000	2
+ 1 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=8 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=10 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 42:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	12
+ 1 2 1 0 3
+2	1		654599	32	10000000	2
+ 1 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=8 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=10 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 42:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	13
+ 1 2 1 1 3
+2	1		654599	32	10000000	2
+ 1 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=8 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 43:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	13
+ 1 2 1 1 3
+2	1		654599	32	10000000	2
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 43:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	13
+ 1 2 1 1 3
+2	1		654599	32	10000000	2
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 44:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	13
+ 1 2 1 1 3
+2	1		654599	32	10000000	2
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 44:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	13
+ 1 2 1 1 3
+2	1		654599	32	10000000	2
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 45:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	14
+ 2 2 1 1 3
+2	1		654599	32	10000000	2
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=8 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 45:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	14
+ 2 2 1 1 3
+2	1		654599	32	10000000	3
+ 1 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=7 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 46:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	14
+ 2 2 1 1 3
+2	1		654599	32	10000000	3
+ 1 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=7 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 46:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	14
+ 2 2 1 1 3
+2	1		654599	32	10000000	3
+ 1 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=7 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 47:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	14
+ 2 2 1 1 3
+2	1		654599	32	10000000	3
+ 1 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=7 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 47:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	14
+ 2 2 1 1 3
+2	1		654599	32	10000000	3
+ 1 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=7 waiting=0
+R1: available=8 waiting=0
+R2: available=9 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 48:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	15
+ 2 2 2 1 3
+2	1		654599	32	10000000	3
+ 1 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=7 waiting=0
+R1: available=8 waiting=0
+R2: available=8 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 48:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	8
+ 0 0 0 0 0
+1	1		654595	0	200000000	15
+ 2 2 2 1 3
+2	1		654599	32	10000000	4
+ 1 0 1 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=7 waiting=0
+R1: available=8 waiting=0
+R2: available=7 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 49:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	9
+ 0 0 1 0 0
+1	1		654595	0	200000000	15
+ 2 2 2 1 3
+2	1		654599	32	10000000	4
+ 1 0 1 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=7 waiting=0
+R1: available=8 waiting=0
+R2: available=6 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 49:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	9
+ 0 0 1 0 0
+1	1		654595	0	200000000	15
+ 2 2 2 1 3
+2	1		654599	32	10000000	4
+ 1 0 1 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=7 waiting=0
+R1: available=8 waiting=0
+R2: available=6 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 50:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	9
+ 0 0 1 0 0
+1	1		654595	0	200000000	15
+ 2 2 2 1 3
+2	1		654599	32	10000000	4
+ 1 0 1 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=7 waiting=0
+R1: available=8 waiting=0
+R2: available=6 waiting=0
+R3: available=9 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 50:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	9
+ 0 0 1 0 0
+1	1		654595	0	200000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	4
+ 1 0 1 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 51:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	10
+ 0 0 2 0 0
+1	1		654595	0	200000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	5
+ 2 0 1 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=8 waiting=0
+R1: available=10 waiting=0
+R2: available=7 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 51:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	10
+ 0 0 2 0 0
+1	1		654595	0	200000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	5
+ 2 0 1 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=8 waiting=0
+R1: available=10 waiting=0
+R2: available=7 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 52:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	10
+ 0 0 2 0 0
+1	1		654595	0	200000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	5
+ 2 0 1 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=8 waiting=0
+R1: available=10 waiting=0
+R2: available=7 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 52:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	10
+ 0 0 2 0 0
+1	1		654595	0	200000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	5
+ 2 0 1 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=8 waiting=0
+R1: available=10 waiting=0
+R2: available=7 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 53:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	10
+ 0 0 2 0 0
+1	1		654595	0	200000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	5
+ 2 0 1 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=8 waiting=0
+R1: available=10 waiting=0
+R2: available=7 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 53:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	11
+ 0 1 2 0 0
+1	1		654595	0	200000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	5
+ 2 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=8 waiting=0
+R1: available=9 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 54:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	11
+ 0 1 2 0 0
+1	1		654595	0	200000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	5
+ 2 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=8 waiting=0
+R1: available=9 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 54:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	11
+ 0 1 2 0 0
+1	1		654595	0	200000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	5
+ 2 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=8 waiting=0
+R1: available=9 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 55:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	11
+ 0 1 2 0 0
+1	1		654595	0	200000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	5
+ 2 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=8 waiting=0
+R1: available=9 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 55:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	11
+ 0 1 2 0 0
+1	1		654595	0	200000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	5
+ 2 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=8 waiting=0
+R1: available=9 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 56:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	11
+ 0 1 2 0 0
+1	1		654595	0	200000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	5
+ 2 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=8 waiting=0
+R1: available=9 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 56:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	5
+ 1 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 57:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	5
+ 1 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 57:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	5
+ 1 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 58:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	5
+ 1 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 58:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	6
+ 1 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 59:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	6
+ 1 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 59:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	6
+ 1 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 60:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	6
+ 1 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 60:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	6
+ 1 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 61:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	6
+ 1 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 61:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	7
+ 1 0 0 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 62:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654600	40	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	7
+ 1 0 0 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 62:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654602	62	180000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	7
+ 1 0 0 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 63:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654602	62	180000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	7
+ 1 0 0 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 63:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654602	62	180000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	7
+ 0 0 0 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 64:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654602	62	180000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	7
+ 0 0 0 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 64:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654602	62	180000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	7
+ 0 0 0 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 65:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654602	62	180000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	7
+ 0 0 0 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 65:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654602	62	180000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	7
+ 0 0 0 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 66:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654602	62	180000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	8
+ 0 1 0 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 66:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654602	62	180000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	8
+ 0 1 0 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 67:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654602	62	180000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	8
+ 0 1 0 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 67:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654602	62	180000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	8
+ 0 1 0 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 68:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654602	62	180000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	8
+ 0 1 0 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 68:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654602	62	180000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	8
+ 0 1 0 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 69:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654602	62	180000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	9
+ 0 1 1 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=9 waiting=0
+R2: available=9 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 69:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654602	62	180000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	9
+ 0 1 1 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=9 waiting=0
+R2: available=9 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 70:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654602	62	180000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	9
+ 0 1 1 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=9 waiting=0
+R2: available=9 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 70:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654602	62	180000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	9
+ 0 1 1 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=9 waiting=0
+R2: available=9 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 71:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654602	62	180000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	9
+ 0 1 1 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=9 waiting=0
+R2: available=9 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 71:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654602	62	180000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	9
+ 0 1 1 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=9 waiting=0
+R2: available=9 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 72:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654602	62	180000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	10
+ 0 1 2 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=9 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 72:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	11
+ 0 2 2 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=8 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 73:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	11
+ 0 2 2 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=8 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 73:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	11
+ 0 2 2 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=8 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 74:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	11
+ 0 2 2 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=8 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 74:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	11
+ 0 2 2 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=8 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 75:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	12
+ 1 2 2 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 75:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	15
+ 0 0 0 0 0
+2	1		654599	32	10000000	12
+ 1 2 2 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 76:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	16
+ 0 0 0 0 1
+2	1		654599	32	10000000	12
+ 1 2 2 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 76:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	16
+ 0 0 0 0 1
+2	1		654599	32	10000000	12
+ 1 2 2 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 77:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	16
+ 0 0 0 0 1
+2	1		654599	32	10000000	12
+ 1 2 2 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 77:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	16
+ 0 0 0 0 1
+2	1		654599	32	10000000	12
+ 1 2 2 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=8 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 78:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	16
+ 0 0 0 0 1
+2	1		654599	32	10000000	13
+ 1 3 2 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=7 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=7 waiting=0
+OSS PID 654593 SysClock 78:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	16
+ 0 0 0 0 0
+2	1		654599	32	10000000	13
+ 1 3 2 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=7 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 79:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	16
+ 0 0 0 0 0
+2	1		654599	32	10000000	13
+ 1 3 2 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=7 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 79:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	16
+ 0 0 0 0 0
+2	1		654599	32	10000000	13
+ 1 3 2 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=7 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 80:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	16
+ 0 0 0 0 0
+2	1		654599	32	10000000	13
+ 1 3 2 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=7 waiting=0
+R2: available=8 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 80:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	16
+ 0 0 0 0 0
+2	1		654599	32	10000000	14
+ 1 3 3 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=7 waiting=0
+R2: available=7 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 81:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	16
+ 0 0 0 0 0
+2	1		654599	32	10000000	14
+ 1 3 3 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=7 waiting=0
+R2: available=7 waiting=0
+R3: available=10 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 81:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 1 0
+2	1		654599	32	10000000	14
+ 1 3 3 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=7 waiting=0
+R2: available=7 waiting=0
+R3: available=9 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 82:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 1 0
+2	1		654599	32	10000000	14
+ 1 3 3 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=7 waiting=0
+R2: available=7 waiting=0
+R3: available=9 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 82:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 1 0
+2	1		654599	32	10000000	14
+ 1 3 3 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=7 waiting=0
+R2: available=7 waiting=0
+R3: available=9 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 83:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 1 0
+2	1		654599	32	10000000	14
+ 1 3 3 0 2
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=7 waiting=0
+R2: available=7 waiting=0
+R3: available=9 waiting=0
+R4: available=8 waiting=0
+OSS PID 654593 SysClock 83:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 1 0
+2	1		654599	32	10000000	14
+ 1 3 3 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=7 waiting=0
+R2: available=7 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 84:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 1 0
+2	1		654599	32	10000000	14
+ 1 3 3 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=7 waiting=0
+R2: available=7 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 84:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 0 0
+2	1		654599	32	10000000	14
+ 1 3 3 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=7 waiting=0
+R2: available=7 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 85:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 0 0
+2	1		654599	32	10000000	14
+ 1 3 3 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=7 waiting=0
+R2: available=7 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 85:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 0 0
+2	1		654599	32	10000000	14
+ 1 3 3 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=7 waiting=0
+R2: available=7 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 86:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 0 0
+2	1		654599	32	10000000	14
+ 1 3 3 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=7 waiting=0
+R2: available=7 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 86:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 0 0
+2	1		654599	32	10000000	14
+ 0 3 3 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=7 waiting=0
+R2: available=7 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 87:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 0 0
+2	1		654599	32	10000000	14
+ 0 3 3 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=7 waiting=0
+R2: available=7 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 87:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 0 0
+2	1		654599	32	10000000	14
+ 0 3 3 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=7 waiting=0
+R2: available=7 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 88:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 0 0
+2	1		654599	32	10000000	14
+ 0 3 3 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=7 waiting=0
+R2: available=7 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 88:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 0 0
+2	1		654599	32	10000000	14
+ 0 3 3 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=7 waiting=0
+R2: available=7 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 89:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 0 0
+2	1		654599	32	10000000	14
+ 0 3 3 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=7 waiting=0
+R2: available=7 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 89:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 0 0
+2	1		654599	32	10000000	14
+ 0 3 3 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=7 waiting=0
+R2: available=7 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 90:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 0 0
+2	1		654599	32	10000000	14
+ 0 3 3 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=7 waiting=0
+R2: available=7 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 90:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 0 0
+2	1		654599	32	10000000	14
+ 0 3 3 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=7 waiting=0
+R2: available=7 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 91:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 0 0
+2	1		654599	32	10000000	14
+ 0 3 3 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=7 waiting=0
+R2: available=7 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 91:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 0 0
+2	1		654599	32	10000000	14
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 92:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 0 0
+2	1		654599	32	10000000	14
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 92:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	17
+ 0 0 0 0 0
+2	1		654599	32	10000000	14
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 93:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	18
+ 0 0 0 1 0
+2	1		654599	32	10000000	14
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 93:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	18
+ 0 0 0 1 0
+2	1		654599	32	10000000	14
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 94:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	18
+ 0 0 0 1 0
+2	1		654599	32	10000000	14
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 94:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	18
+ 0 0 0 1 0
+2	1		654599	32	10000000	14
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 95:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	18
+ 0 0 0 1 0
+2	1		654599	32	10000000	14
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 95:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654603	72	10000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	18
+ 0 0 0 1 0
+2	1		654599	32	10000000	14
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 96:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	19
+ 1 0 0 1 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 96:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	19
+ 1 0 0 1 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 97:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	19
+ 1 0 0 1 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 97:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	19
+ 1 0 0 1 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 98:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	19
+ 1 0 0 1 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 98:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	19
+ 1 0 0 1 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 99:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 1 0 0 1 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 99:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 1 0 0 1 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 100:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 1 0 0 1 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 100:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 1 0 0 1 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 101:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 1 0 0 1 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 101:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 1 0 0 1 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 102:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 0 0 0 1 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 102:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 0 0 0 1 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 103:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 0 0 0 1 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 103:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 0 0 0 1 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 104:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 0 0 0 1 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 104:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 0 0 0 1 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=9 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 105:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 105:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 106:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 106:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 107:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 107:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 108:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 108:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 109:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 109:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 110:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 110:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 111:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 111:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 112:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 112:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	11
+ 0 0 0 0 0
+1	1		654601	56	10000000	20
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 113:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	12
+ 0 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 113:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	12
+ 0 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 114:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	12
+ 0 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 114:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	12
+ 0 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 115:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	12
+ 0 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 115:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	12
+ 0 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 116:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	12
+ 0 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 116:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	13
+ 1 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 117:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	13
+ 1 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 117:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	13
+ 1 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 118:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	13
+ 1 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 118:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	13
+ 1 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 119:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	13
+ 1 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 119:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	13
+ 1 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 120:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	13
+ 0 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 120:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	13
+ 0 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 121:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	13
+ 0 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 121:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	13
+ 0 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 122:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	13
+ 0 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 122:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	13
+ 0 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 123:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	13
+ 0 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 123:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	14
+ 1 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 124:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	14
+ 1 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 124:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	14
+ 1 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 125:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	14
+ 1 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 125:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	14
+ 1 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 126:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	14
+ 1 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=9 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 126:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	14
+ 0 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 127:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	14
+ 0 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 127:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	14
+ 0 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 128:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	14
+ 0 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 128:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	14
+ 0 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 129:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	14
+ 0 0 0 0 1
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=9 waiting=0
+OSS PID 654593 SysClock 129:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	14
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 130:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	14
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 130:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	14
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 131:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	14
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 131:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	14
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 132:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	14
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 132:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	15
+ 0 1 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 133:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	15
+ 0 1 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 133:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	15
+ 0 1 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 134:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	15
+ 0 1 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 134:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	15
+ 0 1 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 135:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	15
+ 0 1 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 135:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	15
+ 0 1 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=9 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 136:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	15
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 136:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	15
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 137:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	15
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 137:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	15
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 138:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	15
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 138:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	15
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 139:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	15
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 139:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	15
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 140:0
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	15
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+OSS PID 654593 SysClock 140:500000000
+Process Table::-------------------------------------------------------------------------------
+Entry	Occupied	PID	StartS	StartN	MessagesSent
+0	1		654604	95	510000000	15
+ 0 0 0 0 0
+Resource Table:------------------------------------------------------
+ResID available WaitingCount
+R0: available=10 waiting=0
+R1: available=10 waiting=0
+R2: available=10 waiting=0
+R3: available=10 waiting=0
+R4: available=10 waiting=0
+Simulation complete.

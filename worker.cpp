@@ -8,6 +8,7 @@
 #include <sys/ipc.h>
 #include <sys/shm.h>
 #include <sys/msg.h>
+#include <cstring>
 
 using namespace std;
 
@@ -16,7 +17,7 @@ using namespace std;
 #define BOUND_NS 1000000000
 
 enum RequestType { 
-	REQUEST = 0; 
+	REQUEST = 0, 
 	RELEASE = 1, 
 	RELEASE_ALL = 2
 };
@@ -42,9 +43,21 @@ key_t shmKey= 6321;
 
 //access to shared memory
 int shmid = shmget(shmKey, sizeof(ClockDigi), 0666);
-ClockDigi* clockVal = (ClockDigi*)shmat(shmid, nullptr, 0);
-int msgid = msgget(key, 0666);
+if(shmid < 0){
+	perror("shmget");
+	return EXIT_FAILURE;
+}
+ClockDigi* clockVal = (ClockDigi*) shmat(shmid, nullptr, 0);
 
+if(clockVal == (void*)-1){
+	perror("shmat");
+	return EXIT_FAILURE;
+}
+int msgid = msgget(shmKey, 0666);
+if(msgid < 0){
+	perror("msgget");
+	return EXIT_FAILURE;
+}
 pid_t pid = getpid();
 srand(pid);
 int alloc[MAX_RESOURCES] = {0};
@@ -65,7 +78,7 @@ while(true){
 					msgsnd(msgid,&rel,sizeof(rel) - sizeof(long),0); 
 				}
                 }
-			Message relAll{1,pid,RELEASE_All,0}; 
+			Message relAll{1,pid,RELEASE_ALL,0}; 
 			msgsnd(msgid,&relAll,sizeof(relAll)-sizeof(long),0);
 			break;
 		}
@@ -83,17 +96,17 @@ while(true){
 			}else{
 //release
 				int nonzero = 0;
-				for(int r = 0; r<MAX_RESOURCES;r++) if(alloc[r]>0) nozero++;
+				for(int r = 0; r<MAX_RESOURCES;r++) if(alloc[r]>0) nonzero++;
 				if(nonzero > 0){
 					int r;
 					do{ r = rand() %MAX_RESOURCES; }while(alloc[r]==0);
 				Message rel{1,pid,RELEASE, r}; 
-				msgsnd(msgid,&rel,sizeof(req)-sizeof(long),0);
+				msgsnd(msgid,&rel,sizeof(rel)-sizeof(long),0);
 			alloc[r]--;
 				}
 			}
 		}
-		unsleep(1000);
+		usleep(1000);
 	}
 	shmdt(clockVal);
 	return 0;
