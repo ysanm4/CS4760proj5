@@ -29,7 +29,11 @@ using namespace std;
 #define MAX_RESOURCES 5
 #define INSTANCES_PER_RESOURCE 10
 
-enum RequestType { REQUEST = 0, RELEASE = 1, RELEASE_ALL = 2 };
+enum RequestType { 
+	REQUEST = 0, 
+	RELEASE = 1, 
+	RELEASE_ALL = 2 
+};
 
 //struct for PCB
 struct PCB{
@@ -116,7 +120,7 @@ void printResourceTable(){
 	cout << "ResID available WaitingCount\n";
     logFile << "Resource Table:------------------------------------------------------\n";
     logFile << "ResID available WaitingCount\n";
-    for(int r = 0; r < MAX_RESOURCES; ++r) {
+    for(int r = 0; r < MAX_RESOURCES; r++) {
         cout << "R" << r << ": available=" << resources[r].available
              << " waiting=" << resources[r].waitCount << "\n";
         logFile << "R" << r << ": available=" << resources[r].available
@@ -144,10 +148,10 @@ if(logFile.is_open()) logFile.close();
 vector<int> detectDeadlock() {
     
     vector<vector<int>> graph(PROCESS_TABLE);
-    for(int i = 0; i < PROCESS_TABLE; ++i) {
+    for(int i = 0; i < PROCESS_TABLE; i++) {
         if(processTable[i].occupied && waitingFor[i] != -1) {
             int res = waitingFor[i];
-            for(int j = 0; j < PROCESS_TABLE; ++j) {
+            for(int j = 0; j < PROCESS_TABLE; j++) {
                 if(processTable[j].occupied && processTable[j].alloc[res] > 0) {
                     graph[i].push_back(j);
                 }
@@ -174,7 +178,7 @@ vector<int> detectDeadlock() {
         rec[u] = false;
         return false;
     };
-    for(int i = 0; i < PROCESS_TABLE; ++i) {
+    for(int i = 0; i < PROCESS_TABLE; i++) {
         if(processTable[i].occupied && waitingFor[i] != -1) {
             fill(visited.begin(), visited.end(), false);
             fill(rec.begin(), rec.end(), false);
@@ -194,7 +198,7 @@ int main( int argc, char *argv[]){
 //	int t_case = 0;
 	int i_case = 0;
 	string logFileName;
-	bool n_var = false, s_var = false, i_var = false, f_var = false;
+//	bool n_var = false, s_var = false, i_var = false, f_var = false;
 	int opt;
 
 //setting up the parameters for h,n,s,t,i, and f
@@ -213,12 +217,12 @@ int main( int argc, char *argv[]){
 
 			case 'n':
 				n_case = atoi(optarg);
-				n_var = true;
+//				n_var = true;
 				break;
 
 			case 's':
 				s_case = atoi(optarg);
-				s_var = true;
+//				s_var = true;
 				break;
 
 //			case 't':
@@ -228,11 +232,11 @@ int main( int argc, char *argv[]){
 
 			case 'i':
 				i_case = atoi(optarg);
-				i_var = true;
+//				i_var = true;
 				break;
 			case 'f':
                 		logFileName = optarg;
-             			f_var = true;
+//             			f_var = true;
                 		break;
 
 			default:
@@ -243,10 +247,10 @@ int main( int argc, char *argv[]){
 	}
 
 //only allow all three to be used together and not by itself 	
-	if(!n_var || !s_var || !i_var || !f_var){
-		cout<<"ERROR: You cannot do one alone please do -n, -s,-i and -f together.\n";
-			return EXIT_FAILURE;
-	}
+//	if(!n_var || !s_var || !i_var || !f_var){
+//		cout<<"ERROR: You cannot do one alone please do -n, -s,-i and -f together.\n";
+//			return EXIT_FAILURE;
+//	}
 //error checking for logfile
 	logFile.open(logFileName);
 	if(!logFile){
@@ -263,7 +267,7 @@ shmid = shmget(key, sizeof(ClockDigi), IPC_CREAT | 0666);
 	clockVal->sysClockS = 0;
 	clockVal->sysClockNano = 0;
 
-for(int i = 0; i < PROCESS_TABLE; ++i) {
+for(int i = 0; i < PROCESS_TABLE; i++) {
         processTable[i].occupied = 0;
         processTable[i].pid = 0;
         processTable[i].startSeconds = 0;
@@ -275,7 +279,7 @@ for(int i = 0; i < PROCESS_TABLE; ++i) {
 		       	0);
     }
 //init resources
-    for(int r = 0; r < MAX_RESOURCES; ++r) {
+    for(int r = 0; r < MAX_RESOURCES; r++) {
         resources[r].available = INSTANCES_PER_RESOURCE;
         resources[r].waitCount = 0;
     }
@@ -307,8 +311,8 @@ while(launched < n_case || running > 0){
         while((pid = waitpid(-1, nullptr, WNOHANG)) > 0) {
             int idx = findIndex(pid);
             if(idx >= 0) {
-                // Free resources
-                for(int r = 0; r < MAX_RESOURCES; ++r) {
+//free
+                for(int r = 0; r < MAX_RESOURCES; r++) {
                     resources[r].available += processTable[idx].alloc[r];
                     processTable[idx].alloc[r] = 0;
                 }
@@ -318,7 +322,7 @@ while(launched < n_case || running > 0){
             }
         }
 
-//exec	
+//fork and exec	
 	if(launched < n_case && running < s_case && now - lastLaunch >= (long long)i_case * 1000000LL) {
             pid = fork();
             if(pid < 0) {
@@ -327,8 +331,8 @@ while(launched < n_case || running > 0){
                 execlp("./worker", "worker", nullptr);
                 perror("execlp"); exit(EXIT_FAILURE);
             } else {
-                // Register new PCB
-                for(int i = 0; i < PROCESS_TABLE; ++i) {
+//register pcb
+                for(int i = 0; i < PROCESS_TABLE; i++) {
                     if(!processTable[i].occupied) {
                         processTable[i].occupied = 1;
                         processTable[i].pid = pid;
@@ -385,12 +389,12 @@ while(launched < n_case || running > 0){
 	   }
 	}   
 
-	for(int r = 0; r < MAX_RESOURCES; ++r){
+	for(int r = 0; r < MAX_RESOURCES; r++){
 		Resource &res = resources[r];
 		while(res.waitCount > 0 && res.available > 0){
 			pid_t wpid = res.waitQueue[0];
 
-			for(int k = 1; k < res.waitCount; ++k)
+			for(int k = 1; k < res.waitCount; k++)
 				res.waitQueue[k-1] = res.waitQueue[k];
 			res.waitCount--;
 			res.available--;
@@ -417,15 +421,15 @@ while(launched < n_case || running > 0){
 	if(now - lastDetect >= oneSec) {
             vector<int> cycle = detectDeadlock();
             if(!cycle.empty()) {
-                // choose victim (first in cycle)
+//choose pid 
                 int victim = cycle.front();
                 pid_t vpid = processTable[victim].pid;
-                // log and kill
+//log and kill
                 cout << "Deadlock detected, killing process " << vpid << "\n";
                 logFile << "Deadlock detected, killing process " << vpid << "\n";
                 kill(vpid, SIGKILL);
-                // cleanup victim
-                for(int r = 0; r < MAX_RESOURCES; ++r) {
+//cleanup
+                for(int r = 0; r < MAX_RESOURCES; r++) {
                     resources[r].available += processTable[victim].alloc[r];
                     processTable[victim].alloc[r] = 0;
                 }
@@ -437,7 +441,7 @@ while(launched < n_case || running > 0){
         }
     }
 
-    // Finish up
+  
     cout << "Simulation complete.\n";
     logFile << "Simulation complete.\n";
     cleanup(0);
