@@ -116,9 +116,9 @@ void printProcessTable(){
 }
 
 void printResourceTable(){
-	cout << "Resource Table:------------------------------------------------------\n";
+	cout << "Resource Table:----------------------------------------------------------------------------------\n";
 	cout << "ResID available WaitingCount\n";
-    logFile << "Resource Table:------------------------------------------------------\n";
+    logFile << "Resource Table:------------------------------------------------------------------------------------\n";
     logFile << "ResID available WaitingCount\n";
     for(int r = 0; r < MAX_RESOURCES; r++) {
         cout << "R" << r << ": available=" << resources[r].available
@@ -211,7 +211,7 @@ int main( int argc, char *argv[]){
 			cout<< "-s: simultaneous\n";
 //			cout<< "-t: iterations\n";
 			cout<< "-f: logfile\n";
-			cout<< "To run try ./oss -n 1 -s 1 -t 1 -i 100 -f logfile.txt\n";
+			cout<< "To run try ./oss -n 1 -s 1 -i 100 -f logfile.txt\n";
 
 	return EXIT_SUCCESS;
 
